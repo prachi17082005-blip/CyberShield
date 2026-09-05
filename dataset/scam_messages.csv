@@ -1,0 +1,17 @@
+message,label
+"Congratulations! You won 50000. Click here to claim",scam
+"URGENT! Verify your bank account immediately",scam
+"Click this link to get free money",scam
+"Win a free iPhone now",scam
+"You have won a lottery prize. Claim now",scam
+"Your account will be blocked. Verify now",scam
+"Congratulations! You are selected for a cash prize",scam
+"Send your OTP to receive your reward",scam
+"Your order has been shipped successfully",safe
+"Your appointment is scheduled for tomorrow",safe
+"Your electricity bill is due tomorrow",safe
+"Your college class starts at 10 AM",safe
+"Your parcel will be delivered today",safe
+"Meeting is scheduled for 5 PM",safe
+"Your exam result has been published",safe
+"Thank you for contacting customer support",safe

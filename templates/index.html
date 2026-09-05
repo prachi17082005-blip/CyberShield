@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberShield AI</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+<div class="container">
+    <div class="card">
+
+        <div class="logo">🛡️</div>
+
+        <h1>CyberShield AI</h1>
+        <p class="subtitle">AI-Powered Scam & Phishing Detector</p>
+
+        <form action="/predict" method="POST">
+
+            <label>Enter suspicious message</label>
+
+            <textarea
+                name="message"
+                placeholder="Paste SMS, email or suspicious message here..."
+                required>
+            </textarea>
+
+            <button type="submit">🔍 Analyze Message</button>
+
+        </form>
+
+        <div class="info">
+            🔒 Your message is analyzed using an AI/ML model.
+        </div>
+
+    </div>
+</div>
+</body>
+</html>

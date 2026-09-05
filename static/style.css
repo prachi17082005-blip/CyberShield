@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #07111f, #102a43);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.container {
+    width: 100%;
+    max-width: 700px;
+    padding: 20px;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+    padding: 40px;
+    text-align: center;
+}
+
+.logo {
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: #b8c7d9;
+    margin-bottom: 30px;
+}
+
+form {
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+textarea {
+    width: 100%;
+    height: 160px;
+    padding: 15px;
+    border-radius: 12px;
+    border: none;
+    resize: none;
+    font-size: 15px;
+}
+
+button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 15px;
+    border: none;
+    border-radius: 12px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    background: #00c6ff;
+    color: white;
+}
+
+.info {
+    margin-top: 25px;
+    color: #aebdce;
+    font-size: 13px;
+}
+
+.message-box {
+    background: rgba(0, 0, 0, 0.25);
+    padding: 20px;
+    border-radius: 12px;
+    margin: 25px 0;
+    text-align: left;
+}
+
+.result {
+    padding: 18px;
+    border-radius: 12px;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.scam {
+    background: rgba(255, 50, 50, 0.2);
+    border: 1px solid #ff5555;
+}
+
+.safe {
+    background: rgba(50, 200, 100, 0.2);
+    border: 1px solid #50d878;
+}
+
+.confidence {
+    margin: 20px;
+    font-size: 18px;
+}
+
+.back {
+    display: inline-block;
+    margin-top: 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}

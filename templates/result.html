@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scan Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+<div class="container">
+    <div class="card">
+
+        <div class="logo">🛡️</div>
+
+        <h1>Scan Result</h1>
+
+        <div class="message-box">
+            {{ message }}
+        </div>
+
+        {% if prediction == "scam" %}
+            <div class="result scam">
+                🚨 SCAM DETECTED
+            </div>
+            <p>This message appears suspicious.</p>
+        {% else %}
+            <div class="result safe">
+                ✅ SAFE MESSAGE
+            </div>
+            <p>This message appears safe.</p>
+        {% endif %}
+
+        <div class="confidence">
+            Confidence: {{ confidence }}%
+        </div>
+
+        <a href="/" class="back">
+            ← Check Another Message
+        </a>
+
+    </div>
+</div>
+</body>
+</html>
